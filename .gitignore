@@ -1,0 +1,19 @@
+
+# O arquivo .gitignore, quando colocado na raiz do projeto, tem a função de informar ao Git quais arquivos ou pastas devem ser ignorados — ou seja, não versionados nem enviados para o repositório remoto (como GitHub)
+
+
+# Para que serve na prática?
+# Ele evita que arquivos desnecessários, sensíveis ou temporários entrem no controle de versão.
+
+
+# Ignorar a pasta de dependências do Node.js
+# node_modules/
+
+# Ignorar arquivos de log
+# *.log
+
+# Ignorar configurações do VS Code
+# .vscode/
+
+# Ignorar arquivos de sistema do macOS
+# .DS_Store
