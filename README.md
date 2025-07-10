@@ -18,7 +18,7 @@ Repositório criado por Marcel em colaboração com a empresa devmarcelfcampos, 
 
 ##  Comandos utilizados
 
-
+```bash
 # Inicializar repositório
 git init
 
