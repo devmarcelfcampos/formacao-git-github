@@ -49,10 +49,9 @@ git branch -D nome-da-branch
 # Deletar branch remota
 git push origin --delete nome-da-branch
 
-
+---
 
 /////// Estrutura Projeto ///////
-
 
 /formacao-git-github
 ├── README.md
