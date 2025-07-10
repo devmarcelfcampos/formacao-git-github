@@ -86,6 +86,12 @@ git checkout -b feature/estrutura-site
 # Trabalhe nas páginas normalmente
 # Ex: crie e edite index.html, contato.html, sobre.html
 
+# Envie a branch para o repositório remoto (GitHub):
+git push -u origin nome-da-branch
+
+      -u configura o rastreamento da branch local com a remota, facilitando futuros pushes e pulls.
+
+
 # Adicione e commite suas mudanças
 git add .
 git commit -m "Adiciona estrutura inicial das páginas do site"
