@@ -160,7 +160,7 @@ Modelo básico de fluxo Git para equipes (Git Flow simplificado)
 
 ---
 
-/////// gi pull: ///////
+/////// git pull: ///////
 
 git fetch     # baixa os dados mais recentes do repositório remoto
 git merge     # integra esses dados à sua branch atual
