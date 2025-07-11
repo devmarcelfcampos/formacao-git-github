@@ -160,6 +160,35 @@ Modelo básico de fluxo Git para equipes (Git Flow simplificado)
 
 ---
 
+/////// gi pull: ///////
+
+git fetch     # baixa os dados mais recentes do repositório remoto
+git merge     # integra esses dados à sua branch atual
+
+Ou seja:
+      1. Busca alterações no GitHub (ou outro remoto)
+
+      2. Atualiza sua branch local com essas mudanças
+
+Exemplo prático:
+
+      Você está na branch main e alguém da equipe fez um commit no GitHub.
+
+      * Ao rodar:
+      git pull origin main
+
+      * Você vai receber essas alterações no seu repositório local.
+
+      Usos comuns:
+      * Antes de começar a trabalhar → para garantir que está com o código mais atualizado.
+
+      * Para resolver o erro de non-fast-forward ao fazer push (ou seja, seu repositório local está atrás do remoto).
+
+      Se houver conflitos:
+      * O Git vai te avisar, e você precisará resolver os arquivos conflitantes manualmente.
+
+---
+
 ✍️ Autor
 Marcel Ferreira Campos
 Desenvolvedor em formação • Git & GitHub na prática
