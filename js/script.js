@@ -1,0 +1,1 @@
+console.log("JavaScript ativo em todas as páginas!");
